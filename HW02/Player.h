@@ -11,8 +11,5 @@ public:
 
 	virtual void Attack() = 0;
 
-protected:
-	std::string Nickname;
-
 };
 
