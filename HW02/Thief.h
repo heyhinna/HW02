@@ -7,9 +7,9 @@
 class Thief : public Player
 {
 public:
-	virtual void Attack(int Input);
+	void Attack() override;
 
-
+	Thief(std::string Nickname);
 
 };
 

@@ -4,9 +4,15 @@
 
 #include <iostream>
 
-void Warrior::Attack(int Input)
+void Warrior::Attack()
 {
 	std::cout << "Swing a sword!" << std::endl;
 
+}
+
+Warrior::Warrior(std::string Nickname) 
+	: Player(Nickname)
+{
+	std::cout << "You have been spawned." << std::endl;
 
 }

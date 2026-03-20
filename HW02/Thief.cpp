@@ -4,9 +4,15 @@
 
 #include <iostream>
 
-void Thief::Attack(int Input)
+void Thief::Attack()
 {
 	std::cout << "Stab a dagger!" << std::endl;
 
+}
+
+Thief::Thief(std::string Nickname)
+	: Player(Nickname)
+{
+	std::cout << "You have been spawned." << std::endl;
 
 }
