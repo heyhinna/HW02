@@ -52,5 +52,10 @@ int main()
 		return 1;
 	}
 
+	player->Attack();
+
+	delete player;
+	nullptr == player;
+
 	return 0;
 }
